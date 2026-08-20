@@ -83,8 +83,8 @@
 
 <h5>추가 공부 내용</h5>
 <ul>
-        <li>문자열(String) -> 문자(char): .charAt(i)</li>
-        <li>문자(char) -> 문자열(String): String.valueOf(...)</li>
-        <li>문자열(String) -> 정수형(int): Integer.parseInt(...)</li>
+        <li>문자열(String) -> 문자(char):      .charAt(i)</li>
+        <li>문자(char) -> 문자열(String):      String.valueOf(...)</li>
+        <li>문자열(String) -> 정수형(int):     Integer.parseInt(...)</li>
 </ul>
 
