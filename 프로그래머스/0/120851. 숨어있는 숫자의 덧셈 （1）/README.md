@@ -71,8 +71,20 @@
 <h5>유의사항</h5>
 
 <ul>
-<li>연속된 숫자도 각각 한 자리 숫자로 취급합니다.</li>
+<li>연속된 숫자도 각각 한 자리 숫자로 취급합니다.</li>        
 </ul>
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+
+
+
+
+<h5>추가 공부 내용</h5>
+<ul>
+        <li>문자열(String) -> 문자(char): .charAt(i)</li>
+        <li>문자(char) -> 문자열(String): String.valueOf(...)</li>
+        <li>문자열(String) -> 정수형(int): Integer.parseInt(...)</li>
+</ul>
+
