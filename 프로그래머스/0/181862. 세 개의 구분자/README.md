@@ -94,3 +94,13 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+
+### 📝 오늘 배운 점 요약 (프로그래머스: 세 개의 구분자)                              
+                                                                                         
+    **`split("[abc]")`**: `'a'`, `'b'`, `'c'`를 구분자로 자르며, 연속된 구분자로 생기는
+  빈 문자열(`""`)은 `.filter(s -> !s.isEmpty())`로 제거해야 함.                          
+    **`new String[]{"EMPTY"}`**: 반환 타입이 `String[]`일 때는 변수 선언 없이 반환 시  
+  타입을 명시해야 함.                                                                    
+    **`list.toArray(new String[0])`**: `String[]` 타입 변환 시 자바가 리스트 크기에    
+  맞춰 알아서 새 배열을 생성하도록 하는 최적화된 표준 표현식.
