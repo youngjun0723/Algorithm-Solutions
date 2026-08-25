@@ -1,0 +1,11 @@
+class Solution {
+        public int[] solution(int n, int k) {
+            int arr[] = new int[n / k];
+            int plus = k;
+            for(int i = 0; i < arr.length; i++) {
+                arr[i] = k;
+                k += plus;
+            }
+            return arr;
+        }
+    }
